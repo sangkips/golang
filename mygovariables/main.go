@@ -30,4 +30,22 @@ func main() {
 
 	fmt.Println("Authentication is:", username+":"+password)
 
+	//initialize a variable with zero values
+	var myJob string
+	var hasPermission bool
+	var pricePerkilo float64
+	var myNumber int
+
+	fmt.Printf("%q %v %f %v\n", myJob, hasPermission, pricePerkilo, myNumber)
+
+	// short variable declaration
+	amigos := "Welcome aboard sir"
+
+	fmt.Println(amigos)
+
+	// variables on same line declaration
+	mySchool, myNeighbor := "Brooklyn", "Avant"
+
+	fmt.Println(myNeighbor, mySchool)
+
 }
