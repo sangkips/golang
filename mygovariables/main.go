@@ -23,4 +23,11 @@ func main() {
 	myvar := 2 //without var declaration
 	fmt.Println(myvar)
 
+	// concatanation in Go
+
+	var username string = "ohaioke"
+	var password string = "5ejh5jasa3su&j"
+
+	fmt.Println("Authentication is:", username+":"+password)
+
 }
